@@ -150,3 +150,9 @@ baidu_analytics:
 # logo and/or favicons of you website.
 gravatar:
   email: name@email.com
+
+# clickEffects
+clickEffects:
+  loveHeart: false
+  socialValue: true
+
