@@ -329,6 +329,13 @@ nav:
   search: /search/
 ```
 
-
+### click effects
+```yml
+click_effects:
+  social_value: false
+  love_heart: false 
+```
+设置为true开启点击文字/桃心效果 
+桃心效果尚未实现
 ## License
 MIT

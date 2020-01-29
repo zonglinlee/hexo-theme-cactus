@@ -152,7 +152,7 @@ gravatar:
   email: name@email.com
 
 # clickEffects
-clickEffects:
-  loveHeart: false
-  socialValue: true
+click_effects:
+  love_heart: false
+  social_value: true
 
