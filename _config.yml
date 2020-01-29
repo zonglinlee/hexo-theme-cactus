@@ -13,11 +13,13 @@ direction: ltr
 # A pair 'Key: url' will result in a link to 'url' with the name 'Key' in the
 # navigation menu. Optionally, you can add translations for the 'Key' in
 # languages/*.yml
+
 nav:
   home: /
   about: /about/
   articles: /archives/
   projects: projects_url
+  search: /search/
 
 
 # Links to your social media accounts.
@@ -25,11 +27,11 @@ nav:
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
-  github: http://github.com/probberechts/cactus-dark
+  github: https://github.com/zonglinlee
   twitter: /
   facebook: /
   linkedin: /
-  mail: mailto:name@email.com
+  mail: mailto:173389705@qq.com
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -131,8 +133,8 @@ open_graph:
 
 # Fill in your Disqus Comments Shortname to enable Disqus comments.
 disqus:
-  enabled: false
-  shortname: cactus-1
+  enabled: true
+  shortname: tumbleweed-top
 
 # Fill in your Google Analytics tracking ID to enable Google Analytics.
 google_analytics:
