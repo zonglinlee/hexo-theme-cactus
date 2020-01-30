@@ -4,6 +4,7 @@
   <% } %>
   <% if (theme.social_links) { %>
     <p>
+      <%# __() is a helper for languages %>
       <%= __('index.find_me_on') %>
       <% var nb_links = Object.keys(theme.social_links).length %>
       <% var i = 0 %>
@@ -32,7 +33,7 @@
   <% if (theme.tags_overview && site.tags.length) { %>
   <span class="h2"><%= __('index.topics') %></span>
   <span class="widget tagcloud">
-    <%- tagcloud(theme.tags_overview) %>
+    <%- tagcloud({min_font:16,amount:20,color:true,start_color:"#b700ff",end_color:"#b700ff"}) %>
   </span>
   <span class="h2"><%= __('index.most_recent') %></span>
   <% } %>
